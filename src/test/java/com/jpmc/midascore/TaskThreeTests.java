@@ -23,6 +23,8 @@ public class TaskThreeTests {
     @Autowired
     private FileLoader fileLoader;
 
+
+
     @Test
     void task_three_verifier() throws InterruptedException {
         userPopulator.populate();
@@ -42,5 +44,7 @@ public class TaskThreeTests {
             Thread.sleep(20000);
             logger.info("...");
         }
+
     }
+
 }
