@@ -13,7 +13,7 @@ This project is a high-performance financial ledger system developed as part of 
 - **Messaging:** Apache Kafka
 - **Database:** H2 (Relational)
 - **Testing:** JUnit 5, Embedded Kafka
-- **Frontend (Optional Integration):** HTML, Tailwind CSS, Vanilla JavaScript (from my "Rural First Aid Guide" app logic)
+
 
 ## 📋 System Architecture
 1. **Producer:** Sends transaction data from files to Kafka topics.
